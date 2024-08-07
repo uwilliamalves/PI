@@ -3,39 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro - Mudança Global</title>
+
+
+    <div class="container">
+        <header>
+          <img src="img\Logo.png" alt="img\Logo.png" class="logo" />
+          <nav>
+            <ul>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Contatos</a></li>
+              <li><a href="#">Ações</a></li>
+            </ul>
+            <div id="search">
+              <input type="text" placeholder="Pesquisa">
+              <button>🔍</button>
+            </div>
+            <button id="login">Login</button>
+          </nav>
+        </header>
+    <style>
+        
+        .container {
+            width: 80%;
+            margin: 0 auto; /* Centraliza o container horizontalmente */
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+        }
+        h1, h2, p {
+            color: #333;
+        }
+        input, button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            max-width: 300px; /* Limita a largura dos inputs */
+        }
+    </style>
 </head>
 <body>
-    <h1>DADOS CADASTRAIS</h1>
-    <H2>Dados do usuario</H2>
-    <br>Nome do usuario</br>
-     
-        <br> Endereço do usuário<br>
+    <div class="container">
+        <header></header>
 
-    <br>Qual é a sua idade?
+        <h1>DADOS CADASTRAIS</h1>
+        <h2>Dados do usuário</h2>
+        
+        <p>Nome do usuário:</p>
+        <input type="text">
+        
+        <p>Endereço do usuário:</p>
+        <input type="text">
 
-<br>Estado
-<input type="text">
-<br>Cidade
-<input type="text">
-<p>E-mail:</p>
-<input type="text">
-<br>Defina a senha
-<input type="text">
-<br>Confirme a senha
-<input type="text">
-<br>Data de Nascimento: <br>Dia/Mes/Ano
-<input type="text">
-<p>Numero do documento</p>
-<input type="text">
-<br>CPF:
-
-
-<P>LOGIN</P>PASSWORD <P>CONFIRME PASSWORD</P> 
-<BUTTON>Register</BUTTON>
-<p>PASSWORD of user</p>
-<button>Click here</button>
-
-
+        <p>Qual é a sua idade?</p>
+        <input type="text">
+        
+        <p>Estado:</p>
+        <input type="text">
+        
+        <p>Cidade:</p>
+        <input type="text">
+        
+        <p>E-mail:</p>
+        <input type="text">
+        
+        <p>Defina a senha:</p>
+        <input type="password">
+        
+        <p>Confirme a senha:</p>
+        <input type="password">
+        
+        <p>Data de Nascimento (Dia/Mês/Ano):</p>
+        <input type="text">
+        
+        <p>Número do documento:</p>
+        <input type="text">
+        
+        <p>CPF:</p>
+        <input type="text">
+        
+        <h2>LOGIN</h2>
+        <p>Password:</p>
+        <input type="password">
+        
+        <p>Confirme Password:</p>
+        <input type="password">
+        
+        <button>Register</button>
+        
+        <p>Password of user:</p>
+        <button>Click here</button>
+    </div>
 </body>
 </html>
