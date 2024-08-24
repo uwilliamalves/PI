@@ -1,0 +1,97 @@
+/* HEADER -- AQUI É O CODIGO APENAS DA HEADER */
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+  
+.cabecalhonavACT {
+    background-color: #003366;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhonavACT ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cabecalhonavACT ul li {
+    margin: 0 10px;
+}
+
+.cabecalhonavACT ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    background-color: #E1E7EF;
+    border-radius: 12px;
+}
+
+.container-pesquisaACT {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+
+.container-pesquisaACT input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.container-pesquisaACT button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.loginACT {
+    margin-left: 10px;
+}
+
+.loginACT a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo-e-titulo {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-e-titulo .logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.logo-e-titulo h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.a-footer {
+    width: 20px;
+    height: 20px;
+} 
