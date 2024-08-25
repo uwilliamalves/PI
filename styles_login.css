@@ -1,0 +1,61 @@
+body, p, h1, h2,form, main,nav{
+    margin: 0;
+    font-family: DM serif Text;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* estilização navbar */
+#navbar{
+    background-color: #27698c;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+    
+}
+
+#navbar h2, #navbar ul, #navbar-list li {
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    height: 60px; /*tem que ter a mesma altura da navbar*/
+    margin-left: 55px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar img{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+    margin-bottom: 0;
+}
+
+#navbar ul{
+    margin-top: 22px;
+    margin-right: 20px;
+}
+
+.material-symbols-outlined{
+    color: #fff;
+    position: absolute;
+    top: 22px;
+    
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: #fff;
+}
