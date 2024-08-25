@@ -59,3 +59,7 @@ h2{
     text-decoration: none;
     color: #fff;
 }
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
