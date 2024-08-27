@@ -10,34 +10,59 @@ body {
 header {
     text-align: center;
     border-bottom: 2px solid black;
+
 }
   
 .cabecalhonav {
     background-color: #003366;
-    padding: 10px;
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .cabecalhonav ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: 10px;
     padding: 0;
     display: flex;
 }
 
 .cabecalhonav ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-.cabecalhonav ul li a {
+/* CABEÇALHO ANTIGO */
+/* .cabecalhonav ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 8px 16px;
     background-color: #E1E7EF;
     border-radius: 12px;
+} */
+
+.cabecalhonav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
 }
+
+.cabecalhonav ul li a:hover {
+    border-bottom: 2px solid #fff;
+} 
+
+.login a i:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.login a {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
 
 .container-pesquisa {
     display: flex;
@@ -61,21 +86,22 @@ header {
 }
 
 .login {
-    margin-left: 10px;
+    margin-right: 15px
 }
 
 .login a {
     text-decoration: none;
     color: white;
-    display: flex;
     align-items: center;
 }
 
+
+
 .logo-e-titulo {
-    padding: 20px 0;
-    display: flex;
+    padding: 80px 0 20px 0;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .logo-e-titulo .logo {
