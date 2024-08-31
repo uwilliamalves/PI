@@ -10,6 +10,7 @@ body {
 header {
     text-align: center;
     border-bottom: 2px solid black;
+    font-family: Arial, sans-serif;
 
 }
   
@@ -54,13 +55,19 @@ header {
     border-bottom: 2px solid #fff;
 } 
 
-.login a i:hover{
-    border-bottom: 2px solid #fff;
+.login:hover{
+    transform: scale(0.95);
 }
 
 .login a {
-    margin-right: 10px;
+    
     font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -88,13 +95,6 @@ header {
 .login {
     margin-right: 15px
 }
-
-.login a {
-    text-decoration: none;
-    color: white;
-    align-items: center;
-}
-
 
 
 .logo-e-titulo {
