@@ -1,3 +1,9 @@
+/* CSS geral */
+
+body, p, h1, h2, input, textarea{
+    margin: 0;
+}
+
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
 
@@ -11,6 +17,7 @@ header {
     text-align: center;
     border-bottom: 2px solid black;
     font-family: Arial, sans-serif;
+  
 
 }
   
@@ -102,6 +109,7 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
+    position: absolute;
 }
 
 .logo-e-titulo .logo {
@@ -115,6 +123,8 @@ header {
     font-size: 48px;
     font-weight: bold;
 }
+
+
 
 /* HEADER PÁGINA LOGIN  */
 
