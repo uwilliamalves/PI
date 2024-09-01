@@ -4,6 +4,7 @@ body, p, h1, h2, input, textarea{
     margin: 0;
 }
 
+
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
 
@@ -15,8 +16,9 @@ body {
 
 header {
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     font-family: Arial, sans-serif;
+    position: initial;
   
 
 }
@@ -109,24 +111,27 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
-    position: absolute;
+    background-image: url(./img/background_header.png);
+    background-size: cover;
 }
 
 .logo-e-titulo .logo {
-    width: 180px;
-    height: 100px;
+    
+    height: 10vh;
     margin-right: 20px;
+
 }
 
 .logo-e-titulo h1 {
     margin: 0;
     font-size: 48px;
     font-weight: bold;
+    color: #fff;
 }
 
 
 
-/* HEADER PÁGINA LOGIN  */
+
 
 
 
@@ -172,8 +177,25 @@ header {
         color: rgb(0, 0, 0);
     }
 
-/* MAIN -- ESTILIZAÇÃO DA 5.0 - LOGIN */
+/*///////////////// MAIN -- INÍCIO ESTILIZAÇÃO DA 5.0 - LOGIN ///////////*/
 
+/* início Título */
+.container-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+    border-bottom: 5px solid #000;
+    margin: 0 50vh;
+}
+/* fim Título */
+
+/* início convite */
+
+
+
+.container-divs h2 p {
+    display: inline-block;
+}
 
 
 /* MAIN -- ESTILIZAÇÃO DA 5.1 - CADASTRO */
