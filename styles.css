@@ -179,23 +179,58 @@ header {
 
 /*///////////////// MAIN -- INÍCIO ESTILIZAÇÃO DA 5.0 - LOGIN ///////////*/
 
+
+main{
+    background-color: #8BB2B5;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
 /* início Título */
+#title-section{
+    background-color: #3B5758;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+
 .container-title{
     text-align: center;
-    font-size: 50px;
-    padding: 20px 0;
-    border-bottom: 5px solid #000;
-    margin: 0 50vh;
+    padding: 40px 0;
+    
 }
+
+
 /* fim Título */
 
-/* início convite */
-
-
-
-.container-divs h2 p {
-    display: inline-block;
+#invite-login-section{
+    background-color: #fff;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
 }
+
+/* início convite - login */
+
+#invite-login-section .container-inv-log{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+}
+
+.invite-login{
+    flex: 1 1;
+    text-align: center;
+    padding: 80px 20px;
+
+}
+
+
 
 
 /* MAIN -- ESTILIZAÇÃO DA 5.1 - CADASTRO */
