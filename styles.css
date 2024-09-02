@@ -156,7 +156,11 @@ header {
     width: auto;
     height: auto;
     border-radius: 12px;
+}
 
+#contact-info li {
+    display: flex;
+    justify-content: center;
 }
 /* MAIN -- ESTILIZAÇÃO DA 4 - ACÕES */
 
