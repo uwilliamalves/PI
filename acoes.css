@@ -44,14 +44,6 @@ header {
     margin: 0 15px;
 }
 
-/* CABEÇALHO ANTIGO */
-/* .cabecalhonav ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 8px 16px;
-    background-color: #E1E7EF;
-    border-radius: 12px;
-} */
 
 .cabecalhonav ul li a {
     color: #fff;
@@ -134,6 +126,12 @@ header {
 
 ////////////* MAIN -- ESTILIZAÇÃO DA 4 - ACÕES */
 
+main{
+    background-color: #8BB2B5;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
     section{
         flex-direction: column;
     }
@@ -142,7 +140,7 @@ header {
         
         padding: 10px;
         margin: 20px;
-        width: auto;
+        width: 90rem;
         height: 50px;
         border-radius: 20px; 
         border-top: 3px solid rgb(0, 0, 0);
@@ -164,8 +162,6 @@ header {
 
     section div h2{
         margin-bottom: 15px;
-        
-
 
     }
 
