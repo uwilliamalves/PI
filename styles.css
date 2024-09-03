@@ -162,35 +162,9 @@ header {
     display: flex;
     justify-content: center;
 }
-/* MAIN -- ESTILIZAÇÃO DA 4 - ACÕES */
 
-    section{
-        flex-direction: column;
-    }
 
-    .displayflexdasacoes{
-        
-        padding: 10px;
-        margin: 20px;
-        width: auto;
-        height: 50px;
-        border-radius: 20px; 
-        border-top: 3px solid rgb(0, 0, 0);
-        background-color: #003366;
-        color: rgb(255, 255, 255);
-    }
 
-    section div ul {
-        padding: 50px;
-        margin: 60px;
-        width: auto;
-        height: 20px;
-        border-radius: 20px; 
-        border-top: 3px solid rgb(70, 81, 145);
-        border-bottom: 3px solid rgb(70, 81, 145);
-        background-color: #f7fbff;
-        color: rgb(0, 0, 0);
-    }
 
 /*///////////////// MAIN -- INÍCIO ESTILIZAÇÃO DA 5.0 - LOGIN ///////////*/
 
