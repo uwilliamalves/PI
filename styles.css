@@ -192,55 +192,219 @@ header {
 /*///////////////// MAIN -- INÍCIO ESTILIZAÇÃO DA 5.0 - LOGIN ///////////*/
 
 
-main{
-    background-color: #8BB2B5;
-    padding-bottom: 50px;
-    padding-top: 40px;
+#main-login{
+    font-family: "Roboto", sans-serif;
+    background-color: #13293d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+;
+
 }
 
-/* início Título */
 #title-section{
-    background-color: #3B5758;
+    background-color: aquamarine;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #fff;
+    padding: 20px;
+    background-position: center;
+    position: relative;
+    
     
 }
 
 .container-title{
+    font-size: 40px;
     text-align: center;
-    padding: 40px 0;
+    font-weight: bold;
+
     
+
 }
 
 
-/* fim Título */
 
-#invite-login-section{
-    background-color: #fff;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    
-}
-
-/* início convite - login */
-
-#invite-login-section .container-inv-log{
+.container-inv-log{
     display: flex;
-    flex-direction: row;  
-    justify-content: center; 
+    width: 70%;
+    background-color: #247ba0;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    border-radius: 15px;
+    padding: 30px 0;
+    
+    
 }
+
+
 
 .invite-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1 1;
+}
+
+.invite-login h2{
+    font-size: 40px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 80px 20px;
+    line-height: 1.3;
+    padding-top: 50px;
+
+  
+
+    
+}
+
+.invite-login p{
+    font-size: 18px;
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+.invite-login a{
+    
+    color: #fff;
+}
+
+.invite-login img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#division{
+    height: auto;
+    border: 2px solid #fff;
+    margin: 40px 0px;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 
 }
+
+#icon-login{
+    font-size: 150px;
+    text-align: center;
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;  
+    width: 100%;
+}
+
+
+.container-input h2{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container-input label{
+    width: 73%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 
+    
+}
+
+.container-input input{
+    height: 45px;
+    width: 70%;
+    border: none;
+    margin-top: 0;
+    padding: 0 8px;
+    outline: 0;
+    
+   
+
+}
+
+.link-cad-reset{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.link-cad-reset a{
+    text-decoration: none;
+}
+
+
+.button-login{
+    height: 45px;
+    width: 90%;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-login:hover{
+    background-color: #13293d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-icon-log{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-icon-log h2{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    
+}
+
+
+.links-login ul{
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+     
+       
+}
+
+
+.links-login i{
+    padding: 0;
+    transition-duration: 0.4s;
+    box-sizing: border-box;
+}
+
+.links-login i:hover{
+    color: #13293d;
+ 
+}
+
 
 
 
