@@ -136,6 +136,18 @@ header {
 /* MAIN -- ESTILIZAÇÃO DA MAIN 1 - HOME  */
 
 
+#weather{
+    border: 2px solid #000;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #179cf5; 
+}
+
+.center{
+    display: flex;
+}
 
 /* MAIN -- ESTILIZAÇÃO DA MAIN 2 - SOBRE  */
 #tituloS {
