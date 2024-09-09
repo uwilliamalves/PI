@@ -138,6 +138,14 @@ header {
 
 
 /* MAIN -- ESTILIZAÇÃO DA MAIN 2 - SOBRE  */
+#tituloS {
+    display: flex;
+    justify-content: center;
+}
+#secao { 
+    padding-right: 60px;
+}
+    
 
 
 
