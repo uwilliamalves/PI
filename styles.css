@@ -27,7 +27,7 @@ header {
   
 .cabecalhonav {
     background-color: #003366;
-    padding: 15px 0;
+    padding: 2px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,6 +81,7 @@ header {
     align-items: center;
     background-color: white;
     padding: 5px 10px;
+    /* border-radius: 12px; */
     
 
 }
@@ -155,7 +156,7 @@ header {
 #contact-info h2 {
     display: flex;
     justify-content: center;
-       
+    
 }
 #contact-description {
     display: flex;
@@ -164,6 +165,7 @@ header {
     width: 431px;
     height: 283px;
     border-radius: 12px;
+    font-size: 20PX;
 }
 
 #contact-info li {
