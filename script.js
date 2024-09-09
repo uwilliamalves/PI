@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // SCRIPT PARA FOOTER
-<!-- script.js -->
 document.addEventListener("DOMContentLoaded", function() {
   fetch('footer.html')
     .then(response => response.text())
