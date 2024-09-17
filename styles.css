@@ -135,13 +135,14 @@ header {
 .main{
     display: flex;
 }
+
 #weather {
-    background-color: #254db9; /* cor de fundo */
-    border: 1px solid #ccc;    /* borda opcional */
-    padding: 20px;             /* espaçamento interno */
-    width: 200px;              /* largura */
-    text-align: center;        /* centralizar texto */
-    border-radius: 10px;       /* cantos arredondados */
+    background-color: #254db9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
     font-size: 25px;
   }
   
