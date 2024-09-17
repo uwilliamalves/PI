@@ -20,9 +20,6 @@ header {
     font-family: Arial, sans-serif;
     position: relative;
 
- 
-  
-
 }
   
 .cabecalhonav {
@@ -135,7 +132,19 @@ header {
 
 /* MAIN -- ESTILIZAÇÃO DA MAIN 1 - HOME  */
 
-
+.main{
+    display: flex;
+}
+#weather {
+    background-color: #254db9; /* cor de fundo */
+    border: 1px solid #ccc;    /* borda opcional */
+    padding: 20px;             /* espaçamento interno */
+    width: 200px;              /* largura */
+    text-align: center;        /* centralizar texto */
+    border-radius: 10px;       /* cantos arredondados */
+    font-size: 25px;
+  }
+  
 
 /* MAIN -- ESTILIZAÇÃO DA MAIN 2 - SOBRE  */
 #tituloS {
