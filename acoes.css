@@ -126,44 +126,6 @@ header {
 
 /* ///////////MAIN -- ESTILIZAÇÃO DA 4 - ACÕES */
 
-main{
-    background-color: #8BB2B5;
-    padding-bottom: 50px;
-    padding-top: 40px;
-}
-
-    section{
-        flex-direction: column;
-    }
-
-    .displayflexdasacoes{
-        
-        padding: 10px;
-        margin: 20px;
-        width: 90rem;
-        height: 50px;
-        border-radius: 20px; 
-        border-top: 3px solid rgb(0, 0, 0);
-        background-color: #003366;
-        color: rgb(255, 255, 255);
-    }
-
-    section div  {
-        padding-top: 20px;
-        padding-left: 30px;
-        margin-top: 10px;
-        height: 250px;
-        border-radius: 20px; 
-        border-top: 3px solid rgb(70, 81, 145);
-        border-bottom: 3px solid rgb(70, 81, 145);
-        background-color: #f7fbff;
-        color: rgb(0, 0, 0);
-    }
-
-    section div h2{
-        margin-bottom: 15px;
-
-    }
 
 
     /* FOOTER -- AQUI É A ESTILIZAÇÃO APENAS DO FOOTER  */

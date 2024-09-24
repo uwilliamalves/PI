@@ -20,9 +20,6 @@ header {
     font-family: Arial, sans-serif;
     position: relative;
 
- 
-  
-
 }
   
 .cabecalhonav {
@@ -137,6 +134,17 @@ header {
 
 
 
+#weather {
+    background-color: #254db9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  
+
 /* MAIN -- ESTILIZAÇÃO DA MAIN 2 - SOBRE  */
 #tituloS {
     display: flex;
@@ -186,6 +194,51 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
+/* MAIN - INICIO DA ESTILIZAÇÃO DA 4 - AÇÕES */
+
+
+main{
+    background-color: #8BB2B5;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+    section{
+        flex-direction: column;
+    }
+
+    .displayflexdasacoes{
+        
+        padding: 10px;
+        margin: 20px;
+        width: 90rem;
+        height: 50px;
+        border-radius: 20px; 
+        border-top: 3px solid rgb(0, 0, 0);
+        background-color: #003366;
+        color: rgb(255, 255, 255);
+    }
+
+    section div  {
+        padding-top: 20px;
+        padding-left: 30px;
+        margin-top: 10px;
+        height: 250px;
+        border-radius: 20px; 
+        border-top: 3px solid rgb(70, 81, 145);
+        border-bottom: 3px solid rgb(70, 81, 145);
+        background-color: #f7fbff;
+        color: rgb(0, 0, 0);
+    }
+
+    section div h2{
+        margin-bottom: 15px;
+
+    }
+
 
 
 
