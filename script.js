@@ -20,3 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .catch(error => console.error('Erro ao carregar o footer:', error));
 });
+
+
+// SCRIPT PARA CONTATO ENVIADO
+function mostrarPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+    setTimeout(function() {
+        popup.style.display = "none";
+    }, 10000); // O pop-up desaparecerá após 3 segundos
+}
