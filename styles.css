@@ -24,7 +24,7 @@ header {
   
 .cabecalhonav {
     background-color: #003366;
-    padding: 15px 0;
+    padding: 6px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ header {
     font-weight: bold;
     border: 1px solid #fff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     color: white;
     text-decoration: none;
@@ -77,7 +77,8 @@ header {
     display: flex;
     align-items: center;
     background-color: white;
-    padding: 5px 10px;
+    padding: 4px 15px;
+    border-radius: 10px;
 
 }
 
@@ -102,7 +103,7 @@ header {
 
 
 .logo-e-titulo {
-    padding: 80px 0 20px 0;
+    padding: 15px 0;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -288,7 +289,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #247ba0;
+    background-color: #003366;
     box-sizing: border-box;
     width: 100%;
     padding: 10px; 
