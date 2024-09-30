@@ -1,6 +1,69 @@
 /* CSS geral */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+.news-section {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: left;
+    color: #0056b3;
+}
+
+.news-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.news-item p {
+    font-size: 0.9em;
+    margin: 10px;
+    color: #666;
+}
+
+.more-news-btn {
+    display: block;
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.more-news-btn:hover {
+    background-color: #004494;
+}
 
 
 h1 {
@@ -218,6 +281,17 @@ header {
     border-radius: 10px; /* Bordas arredondadas na imagem */
     }
 
+.news-container {
+    background-color: #E6F7F4;
+
+    padding: 20px;             /* Espaçamento interno (padding) */
+    border-radius: 10px;       /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    max-width: 1200px;         /* Largura máxima da caixa */
+    margin: 20px auto;         /* Centraliza a caixa horizontalmente */
+
+}
+    
 
 
 
