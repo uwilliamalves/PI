@@ -7,6 +7,7 @@
     <title>Mudanças climáticas</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="scriptcontatos.js"defer></script> 
     
 </head>
 <body>
@@ -16,17 +17,14 @@
     </header>
     <section id="contact-info">
         <h2>Contato</h2>
-        <form>
+        <form id="contact-form" onsubmit="validarFormulario(event)">
             <label>Nome</label>
             <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
             <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
             <label>Mensagem</label>
             <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-            <!-- <button type="submit">Enviar</button> -->
-            <button onclick="mostrarPopup()">Enviar Contato</button>
-
-            <input type="hidden" name="redirectTo" value="PI/3.1contatos-enviar.html">
+            <button type="submit">Enviar Contato</button>
         </form>
         
         <div id="popup">Enviado com sucesso!</div>
