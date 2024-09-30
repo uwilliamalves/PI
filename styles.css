@@ -125,26 +125,6 @@ header {
 }
 
 
-
-
-
-
-
-/* MAIN -- ESTILIZAÇÃO DA MAIN 1 - HOME  */
-
-
-
-#weather {
-    background-color: #254db9;
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 25px;
-  }
-  
-
 /* MAIN -- ESTILIZAÇÃO DA MAIN 2 - SOBRE  */
 #tituloS {
     display: flex;
