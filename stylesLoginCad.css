@@ -14,7 +14,6 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .container{
@@ -86,6 +85,8 @@ main{
     background-color: #006494;
     color: #fff;
 }
+
+
 
 .container form{
     background-color: #fff;
@@ -268,11 +269,14 @@ main{
 }
 
 
-/* testesssssss */
+span.span-required{
+    display: none;
+    color: #e63636;
 
-.nome-valid{
-    content: "Testes";
-    font-size: 10px;
-    border:1px solid red;
+}
+
+.limps{
+    border: 2px solid #e63636;
+
 
 }
