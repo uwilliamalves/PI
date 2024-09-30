@@ -1,9 +1,15 @@
 /* CSS geral */
 
-body, p, h1, h2, input, textarea{
-    margin: 0;
-}
 
+
+
+h1 {
+    font-size: 25px; /* Ajuste conforme necessário */
+    width: 100%; /* Para garantir que o container ocupe o espaço correto */
+    text-align: center; /* Opcional, pode centralizar o texto */
+    padding: 10px; /* Espaçamento interno para evitar encostar nas bordas */
+    
+}
 
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
@@ -140,6 +146,8 @@ header {
     position: relative;
 
 }
+
+
 /* Estilos para o SVG e o mapa */
 .uf {
     fill: #cfcfcf;

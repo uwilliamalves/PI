@@ -129,7 +129,6 @@ function atualizarClima(estado) {
             
     }
 
-    // Atualiza o conteúdo de texto e exibe a imagem
     document.getElementById("estado-clima").innerText = climaTexto;
     let imagemElement = document.getElementById("estado-imagem");
 
@@ -141,11 +140,11 @@ function atualizarClima(estado) {
     }
 }
 
-    // Adiciona eventos de clique para todos os estados
+
     document.querySelectorAll('path').forEach(function(element) {
         element.onclick = function() {
-            let estadoId = this.id; // Pega o ID do estado clicado
-            atualizarClima(estadoId); // Atualiza o clima com base no estado
+            let estadoId = this.id; 
+            atualizarClima(estadoId); 
         };
     });
 
@@ -154,7 +153,7 @@ function atualizarClima(estado) {
     
     if (informacoesAdicionais) {
         informacoesElement.innerText = informacoesAdicionais;
-        informacoesElement.style.display = "block"; // Exibe o elemento se houver informações
+        informacoesElement.style.display = "block";
     } else {
-        informacoesElement.style.display = "none"; // Oculta se não houver informações
+        informacoesElement.style.display = "none";
     }
