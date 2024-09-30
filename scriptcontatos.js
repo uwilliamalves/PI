@@ -1,6 +1,5 @@
 function validarFormulario(event) {
-    event.preventDefault(); 
-
+    event.preventDefault();
 
     const nome = document.querySelector('input[name="name"]').value.trim();
     const email = document.querySelector('input[name="email"]').value.trim();
@@ -12,11 +11,10 @@ function validarFormulario(event) {
         return false;
     }
 
-
     document.getElementById("popup").style.display = "block";
-
-
+    setTimeout(() => {
+        document.getElementById("popup").style.display = "none";
+    }, 2000)
     document.getElementById("contact-form").reset();
-
-    return true;
+    return true;
 }
