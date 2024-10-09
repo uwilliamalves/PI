@@ -1,18 +1,16 @@
 /* CSS geral */
 
-body, p, h1, h2, input, textarea{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
-
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 header {
     text-align: center;
@@ -75,11 +73,9 @@ header {
 
 .container-pesquisa {
     display: flex;
-    align-items: center;
     background-color: white;
     padding: 4px 15px;
     border-radius: 10px;
-
 }
 
 .container-pesquisa input {
@@ -103,24 +99,26 @@ header {
 
 
 .logo-e-titulo {
-    padding: 15px 0;
+    padding: 08px 0;
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url(./img/background_header.png);
+    flex-direction: column;
     background-size: cover;
+    background-color: #13293d;
+    margin: 3px 0;
 }
 
-.logo-e-titulo .logo {
-    
+.logo {
+    padding: 0;    
     height: 10vh;
-    margin-right: 20px;
+
 
 }
 
 .logo-e-titulo h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
 }
@@ -132,26 +130,29 @@ header {
 #title-footer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     text-align: center;
 
 }
+
 #footer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #003366;
     box-sizing: border-box;
     width: 100%;
-    padding: 10px; 
+    padding: 5px 0; 
+    background-color: #13293d; 
+    
+
 
 }
 
 #footer-links ul{
     display: inline-block;
-    font-size: 30px;
-    padding: 10px;    
+    font-size: 25px;
+    padding: 5px;    
 }
 
 #footer-liks i{
