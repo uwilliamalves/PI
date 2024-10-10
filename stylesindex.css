@@ -1,0 +1,314 @@
+/* CSS geral */
+
+#main-home{
+    background-image: linear-gradient(145deg,#13293d, #006494, #d0e4ae, #ffc300 );
+
+}
+
+.h1{
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+.news-section {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+
+.news-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.news-item p {
+    font-size: 0.9em;
+    margin: 10px;
+    color: #666;
+}
+
+.more-news-btn {
+    display: block;
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.more-news-btn:hover {
+    background-color: #004494;
+}
+
+#weather {
+    background-color: #254db9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  
+
+#map {
+    height: 50px;
+    width: 10%;
+    position: relative;
+
+}
+
+
+/* Estilos para o SVG e o mapa */
+.uf {
+    fill: #cfcfcf;
+    stroke: #333333;
+    stroke-width: 0.5;
+    transition: fill 0.3s;
+}
+.uf:hover {
+    fill: #007bff;
+}
+
+
+#climate-info {
+    padding: 20px;
+    background-color: #e0f7fa; 
+    border: 2px solid #b2ebf2; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    font-family: 'Arial', sans-serif;
+    color: #00796b; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#climate-info h3 {
+    font-size: 1.8em;
+    color: #00796b; 
+    text-align: center;
+    }
+
+#climate-info p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #4caf50; 
+    }
+
+#estado-clima {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #5c6bc0; 
+    }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    }
+
+#map-inter {
+    width: 100%;
+    }
+
+
+    
+#climate-info {
+    width: 40%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-left: 1px solid #ccc;
+    background-color: #e0f7f1;
+    }
+
+#estado-clima {
+    font-size: 16px;
+    color: #333;
+    }
+
+#estado-imagem {
+    width: 250px; 
+    height: auto;
+    margin-top: 20px; 
+    border-radius: 10px; 
+    display: block;
+    margin: 20px auto;
+    }
+
+.news-container {
+    background-color: #E6F7F4;
+    padding: 20px;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1200px;
+    margin: 20px auto;  
+
+}
+
+
+
+
+
+
+/* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: Arial, sans-serif;
+    position: relative;
+
+}
+  
+.cabecalhonav {
+    background-color: #003366;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ 
+}
+
+.cabecalhonav ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+}
+
+.cabecalhonav ul li {
+    margin: 0 15px;
+}
+
+
+
+.cabecalhonav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.cabecalhonav ul li a:hover {
+    border-bottom: 2px solid #fff;
+} 
+
+.login:hover{
+    transform: scale(0.95);
+}
+
+.login a {
+    
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+
+}
+
+.container-pesquisa input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.container-pesquisa button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer; 
+
+}
+
+
+.login {
+    margin-right: 15px
+}
+
+
+.logo-e-titulo {
+    padding: 80px 0 20px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(./img/background_header.png);
+    background-size: cover;
+}
+
+.logo-e-titulo .logo {
+    
+    height: 10vh;
+    margin-right: 20px;
+
+}
+
+.logo-e-titulo h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 48px; 
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+

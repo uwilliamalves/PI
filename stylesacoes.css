@@ -1,9 +1,3 @@
-/* CSS geral */
-
-body, p, h1, h2, input, textarea{
-    margin: 0;
-}
-
 
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
@@ -18,19 +12,20 @@ header {
     text-align: center;
     border-bottom: 1px solid black;
     font-family: Arial, sans-serif;
-    position: initial;
-  
+    position: relative;
 
 }
   
 .cabecalhonav {
     background-color: #003366;
-    padding: 5px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ 
 }
 
 .cabecalhonav ul {
@@ -45,11 +40,11 @@ header {
 }
 
 
+
 .cabecalhonav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 .cabecalhonav ul li a:hover {
@@ -76,8 +71,8 @@ header {
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 12px;
     padding: 5px 10px;
+
 }
 
 .container-pesquisa input {
@@ -90,8 +85,10 @@ header {
     border: none;
     background: none;
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer; 
+
 }
+
 
 .login {
     margin-right: 15px
@@ -124,14 +121,133 @@ header {
 
 
 
-/* ///////////MAIN -- ESTILIZAÇÃO DA 4 - ACÕES */
+/* MAIN -- ESTILIZAÇÃO DA MAIN ACOES html  */
+
+
+.html-login{
+    background-image: linear-gradient(145deg,#13293d, #006494, #d0e4ae, #ffc300 );
+    height: 120%;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 
 
-    /* FOOTER -- AQUI É A ESTILIZAÇÃO APENAS DO FOOTER  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
 
-.a-footer {
-    width: 20px;
-    height: 20px;
-} 
+#acoes {
+    background: linear-gradient(45deg, #004080, #66ccff, #ffff99);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#acoes ul {
+    list-style: none;
+}
+
+#acoes h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 36px;
+}
+
+#acoes p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.displayflexdasacoes {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul li strong {
+    color: #004080;
+}
+
+@media (max-width: 768px) {
+    section div {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+/* FOOTER -- AQUI É A ESTILIZAÇÃO APENAS DO FOOTER  */
+
+
+#title-footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+#footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #247ba0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    
+
+}
+
+#footer-links ul{
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;    
+}
+
+#footer-liks i{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#insta, #face, #linkedin{
+    color: #fff;
+}
+

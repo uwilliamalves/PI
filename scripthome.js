@@ -12,7 +12,7 @@ function atualizarClima(estado) {
         case "PB":
             climaTexto = "Paraíba: Temperatura média de 26°C, clima tropical com chuvas no inverno.";
             imagemSrc = "img/estados/paraiba.png";
-             informacoesAdicionais = "Características: A Paraíba é conhecida por suas paisagens variadas, que vão desde o litoral até o sertão. As temperaturas variam de acordo com a região, sendo mais amenas nas áreas serranas.";
+            informacoesAdicionais = "Características: A Paraíba é conhecida por suas paisagens variadas, que vão desde o litoral até o sertão. As temperaturas variam de acordo com a região, sendo mais amenas nas áreas serranas.";
             informacoesAdicionais += " História e Cultura: A cultura paraibana é rica, com influências indígenas, africanas e europeias, refletidas na música, dança e culinária.";
             break;
         case "RJ":
