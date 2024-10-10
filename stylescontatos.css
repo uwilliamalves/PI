@@ -124,8 +124,6 @@ header {
     color: #fff;
 }
 
-
-
 /* MAIN -- ESTILIZAÇÃO DA MAIN 3 - CONTATOS.html  */
 #contact-info{
     display: flex;
@@ -163,7 +161,7 @@ form input:focus{
     border-radius: 16px;
 }
 form textarea{
-    padding: 10px;
+    padding: auto;
     outline: none;
     border: 0;
     font-size: 15px;
