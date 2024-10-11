@@ -9,7 +9,7 @@
 }
 #main-home{
     background-image: linear-gradient(145deg,#13293d, #006494, #d0e4ae, #ffc300 );
-
+    padding-bottom: 50px;
 }
 
 .h1{
@@ -17,7 +17,8 @@
     padding: 20px 0;
     font-weight: bold;
     font-size: 30px;
-    color: #fff;
+    color: #f2c04b;
+ 
 }
 
 p {
@@ -32,12 +33,6 @@ p {
     max-width: 1200px;
 }
 
-
-.news-grid {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
 
 .news-item {
     background-color: white;
@@ -123,17 +118,18 @@ p {
     padding-top: 15px;
     text-align: justify;
     line-height: 1.3em;
+    color: #000;
 }
 
 #climate-info {
     padding: 0 40px;
     background-image: linear-gradient(#f3bc3e, #ecdbab, #5f799c, #1b436c, #b9bdc3);
-    border: 2px solid #b2ebf2; 
+    border: 2px solid #003366; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     flex: 1 1;
-    margin: 0 30px;
+    margin: 0 50px;
 
 }
 
@@ -147,19 +143,19 @@ p {
 #climate-info p {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #1b436c; 
-    }
+    color: #000; 
+}
 
 #estado-clima {
     font-weight: bold;
     font-size: 1.3em;
-    color: #5c6bc0; 
-    }
+
+}
 
 .container {
     display: flex;
     flex-direction: row;
-    }
+}
 
 #map-inter {
     width: 100%;
@@ -180,11 +176,35 @@ p {
     }
 
 .news-container {
-    background-color: #E6F7F4;
-    padding: 20px;  
+    background-image: linear-gradient(#f3bc3e, #ecdbab, #5f799c, #1b436c, #b9bdc3);
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    max-width: 1200px;
-    margin: 20px auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px 0;
 
+}
+
+.news-grid {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.news-container h2{
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+.news-container p{
+    font-size: 20px;
+    color: #000;
 }
