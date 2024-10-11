@@ -1,4 +1,5 @@
 /* CSS geral */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -105,22 +106,22 @@ header {
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-color: #13293d;
+    background-image: linear-gradient(#f3bc3e, #ecdbab, #5f799c, #1b436c, #b9bdc3);
     margin: 3px 0;
 }
 
 .logo {
     padding: 0;    
-    height: 10vh;
+    width: 10vw;;
 
 
 }
 
 .logo-e-titulo h1 {
     margin: 0;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
-    color: #fff;
+    color: #f2c04b;
 }
 
 
