@@ -1,136 +1,23 @@
-/* CSS geral */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-body, p, h1, h2, input, textarea{
+*{
     margin: 0;
-}
-
-
-/* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
-
-
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    text-align: center;
-    border-bottom: 1px solid black;
-    font-family: Arial, sans-serif;
-    position: relative;
-
-}
-  
-.cabecalhonav {
-    background-color: #003366;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
- 
-}
-
-.cabecalhonav ul {
-    list-style-type: none;
-    margin-left: 10px;
     padding: 0;
-    display: flex;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.cabecalhonav ul li {
-    margin: 0 15px;
-}
-
-
-
-.cabecalhonav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;  
-}
-
-.cabecalhonav ul li a:hover {
-    border-bottom: 2px solid #fff;
-} 
-
-.login:hover{
-    transform: scale(0.95);
-}
-
-.login a {
-    
-    font-weight: bold;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 10px;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-}
-
-
-.container-pesquisa {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 5px 10px;
+.main-cont{
+    background-image: linear-gradient(145deg,#13293d, #006494, #d0e4ae, #ffc300 );
+    padding: 30px 0;
 
 }
-
-.container-pesquisa input {
-    border: none;
-    outline: none;
-    font-size: 16px;
-}
-
-.container-pesquisa button {
-    border: none;
-    background: none;
-    font-size: 18px;
-    cursor: pointer; 
-
-}
-
-
-.login {
-    margin-right: 15px
-}
-
-
-.logo-e-titulo {
-    padding: 80px 0 20px 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    background-image: url(./img/background_header.png);
-    background-size: cover;
-}
-
-.logo-e-titulo .logo {
-    
-    height: 10vh;
-    margin-right: 20px;
-
-}
-
-.logo-e-titulo h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: bold;
-    color: #fff;
-}
-
-/* MAIN -- ESTILIZAÇÃO DA MAIN 3 - CONTATOS.html  */
 #contact-info{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 45px;
-    margin: 50px 500px; 
+    margin: 0 500px; 
     /* width: 200px; */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -237,55 +124,5 @@ form textarea{
 
 
 
-/*///////////////// MAIN  ///////////*/
 
-.html-login{
-    background-image: linear-gradient(145deg,#13293d, #006494, #d0e4ae, #ffc300 );
-    height: 120%;
-
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-
-/* FOOTER -- AQUI É A ESTILIZAÇÃO APENAS DO FOOTER  */
-
-
-#title-footer{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-
-}
-#footer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #247ba0;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 30px;
-    
-
-}
-
-#footer-links ul{
-    display: inline-block;
-    font-size: 50px;
-    padding: 20px;    
-}
-
-#footer-liks i{
-    color: #fff;
-    text-decoration: none;
-
-}
-
-#insta, #face, #linkedin{
-    color: #fff;
-}
 

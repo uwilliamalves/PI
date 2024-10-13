@@ -13,13 +13,7 @@
 /* HEADER -- AQUI É A ESTILIZAÇÃO APENAS DA HEADER */
 
 
-header {
-    text-align: center;
-    border-bottom: 1px solid black;
-    font-family: Arial, sans-serif;
-    position: relative;
 
-}
   
 .cabecalhonav {
     background-color: #003366;
@@ -106,7 +100,7 @@ header {
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-image: linear-gradient(#f3bc3e, #ecdbab, #5f799c, #1b436c, #b9bdc3);
+    background-image: linear-gradient(#1b436c, #5f799c, #ecdbab,#f3bc3e, #b9bdc3);
     margin: 3px 0;
 }
 
@@ -121,7 +115,8 @@ header {
     margin: 0;
     font-size: 38px;
     font-weight: bold;
-    color: #f2c04b;
+    /* color: #f2c04b; */
+    color: #13293d;
 }
 
 

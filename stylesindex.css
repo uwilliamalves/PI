@@ -118,7 +118,7 @@ p {
     padding-top: 15px;
     text-align: justify;
     line-height: 1.3em;
-    color: #000;
+    color: #13293d;
 }
 
 #climate-info {
@@ -135,7 +135,7 @@ p {
 
 #climate-info h3 {
     font-size: 1.8em;
-    color: #000; 
+    color: #13293d; 
     text-align: center;
     padding-top: 10px;
 }
@@ -200,11 +200,11 @@ p {
 
 .news-container h2{
     font-size: 30px;
-    color: #000;
+    color: #13293d;
     padding-bottom: 15px;
 }
 
 .news-container p{
     font-size: 20px;
-    color: #000;
+    color: #13293d;
 }
