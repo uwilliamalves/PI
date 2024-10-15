@@ -205,18 +205,18 @@ p {
     color: #000;
 }
 
-/* Container dos vídeos em layout flexível */
+
 #videos-container {
     display: flex;
-    justify-content: space-between; /* Distribui os vídeos igualmente */
-    flex-wrap: wrap; /* Faz com que os vídeos se reorganizem em caso de telas menores */
-    gap: 20px; /* Espaçamento entre os vídeos */
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px; 
     margin-top: 20px;
 }
 
-/* Estilo para cada vídeo individualmente */
+
 .video-item {
-    flex: 1 1 30%; /* Cada vídeo ocupa 30% do contêiner, lado a lado */
+    flex: 1 1 30%; 
     text-align: center;
 }
 
