@@ -178,16 +178,75 @@ p {
 
 
 
+/* Curiosidade VIDEOS section */
+
+
+#curiosidades-section {
+    padding: 0 40px;
+    background-color: #f5e4c8; /* Cor pastel suave */
+    border: 2px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    flex: 1 1;
+    margin: 50px;
+}
+
+#curiosidades-section h3 {
+    font-size: 1.8em;
+    color: #13293d;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#curiosidades-section p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+/* Container dos vídeos em layout flexível */
+#videos-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os vídeos igualmente */
+    flex-wrap: wrap; /* Faz com que os vídeos se reorganizem em caso de telas menores */
+    gap: 20px; /* Espaçamento entre os vídeos */
+    margin-top: 20px;
+}
+
+/* Estilo para cada vídeo individualmente */
+.video-item {
+    flex: 1 1 30%; /* Cada vídeo ocupa 30% do contêiner, lado a lado */
+    text-align: center;
+}
+
+.video-thumbnail {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.video-titulo {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1b436c;
+    text-align: center;
+}
+
 
 
     /* NOTICIAS SECTION */
 
 
-.news-container {
+.noticias-container {
     background-color: #f5e4c8; 
    /* background-image: linear-gradient(#f3bc3e, #ecdbab, #5f799c, #1b436c, #b9bdc3); */
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #003366;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,19 +260,19 @@ p {
 
 }
 
-.news-grid {
+.noticias-grid {
     display: flex;
     padding: 10px;
     justify-content: space-evenly;
 }
 
-.news-container h2{
+.noticias-container h2{
     font-size: 30px;
     color: #13293d;
     padding-bottom: 15px;
 }
 
-.news-container p{
+.noticias-container p{
     font-size: 20px;
     color: #13293d;
 }
@@ -268,62 +327,3 @@ p {
 
 
 
-
-/* Curiosidade section */
-
-
-#curiosidades-section {
-    padding: 0 40px;
-    background-color: #f5e4c8; /* Cor pastel suave */
-    border: 2px solid #003366;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    flex: 1 1;
-    margin: 50px;
-}
-
-#curiosidades-section h3 {
-    font-size: 1.8em;
-    color: #13293d;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#curiosidades-section p {
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: #000;
-}
-
-/* Container dos vídeos em layout flexível */
-#videos-container {
-    display: flex;
-    justify-content: space-between; /* Distribui os vídeos igualmente */
-    flex-wrap: wrap; /* Faz com que os vídeos se reorganizem em caso de telas menores */
-    gap: 20px; /* Espaçamento entre os vídeos */
-    margin-top: 20px;
-}
-
-/* Estilo para cada vídeo individualmente */
-.video-item {
-    flex: 1 1 30%; /* Cada vídeo ocupa 30% do contêiner, lado a lado */
-    text-align: center;
-}
-
-.video-thumbnail {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.video-title {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #1b436c;
-    text-align: center;
-}
