@@ -342,20 +342,27 @@ p {
 
 #desmatamento-info h3 {
     font-size: 1.8em;
-    color: #34495e;
+    color: #13293d;
     text-align: center;
     padding-bottom: 10px;
 }
 
+.video-novos {
+    text-align: center;
+    margin: 20px 0;
+}
 
-
-
-
-
-.imgrad{
-    max-width: 100%;
+.novos-thumbnail {
+    width: 100%;
+    max-width: 400px; /* Tamanho máximo da imagem */
     height: auto;
-    width: 500px; /* Ajuste o valor conforme necessário */
+    border-radius: 8px;
+}
+
+.novos-titulo {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
 }
 
 
